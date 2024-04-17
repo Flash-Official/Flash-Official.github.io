@@ -1,6 +1,7 @@
 body {
     background-color:#121212;
     color:white;
+    /* margin:0px; */
 }
 #topbar {
     display:flex;
@@ -16,8 +17,12 @@ body {
     -webkit-animation: glow 1s ease-in-out infinite alternate;
     -moz-animation: glow 1s ease-in-out infinite alternate;
     animation: glow 1s ease-in-out infinite alternate;
+    border-bottom:2px solid #121212;
+    transition:2s;
 }
-
+#heading-div:hover{
+    border-bottom:2px solid #04d9ff;
+}
 @keyframes glow {
     from {
         text-shadow: 0 0 1px #fff, 0 0 5px #fff, 0 0 10px #04D9FF, 0 0 15px #04D9FF, 0 0 20px #04D9FF, 0 0 25px #04D9FF, 0 0 30px #04D9FF;
@@ -30,5 +35,15 @@ body {
 #brief-intro{
     color:FBFFFF;
     font-size:25px;
+    margin-left:10px;
+    margin-right:10px;
+    transition:0.5s;
+    padding:10px 10px 10px 10px;
+    border:2px solid #121212
+    
 
+}
+
+#brief-intro:hover{
+    border:2px solid #04D9FF
 }
