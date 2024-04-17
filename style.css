@@ -1,0 +1,34 @@
+body {
+    background-color:#121212;
+    color:white;
+}
+#topbar {
+    display:flex;
+    justify-content: center;
+    margin-bottom:40px;
+    margin-top:20px;
+}
+
+#heading-div{
+    font-size: 40px;
+    color: #fff;
+    text-align: center;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+    from {
+        text-shadow: 0 0 1px #fff, 0 0 5px #fff, 0 0 10px #04D9FF, 0 0 15px #04D9FF, 0 0 20px #04D9FF, 0 0 25px #04D9FF, 0 0 30px #04D9FF;
+    }
+    to {
+        text-shadow: 0 0 1px #fff, 0 0 5px #1F51FF, 0 0 10px #1F51FF, 0 0 15px #1F51FF, 0 0 20px #1F51FF, 0 0 25px #1F51FF, 0 0 30px #1F51FF;
+    }
+}
+
+#brief-intro{
+    color:FBFFFF;
+    font-size:25px;
+
+}
