@@ -1,5 +1,5 @@
 body {
-    background-color:#121212;
+    background-color:#607B9B;
     color:white;
     /* margin:0px; */
 }
@@ -8,6 +8,7 @@ body {
     justify-content: center;
     margin-bottom:40px;
     margin-top:20px;
+    width:1691px;
 }
 
 #heading-div{
@@ -17,37 +18,37 @@ body {
     -webkit-animation: glow 1s ease-in-out infinite alternate;
     -moz-animation: glow 1s ease-in-out infinite alternate;
     animation: glow 1s ease-in-out infinite alternate;
-    border-bottom:2px solid #121212;
+    border-bottom:2px solid transparent;
     transition:0.5s;
 }
 #heading-div:hover{
     font-size:40px;
-    border-bottom:2px solid #04d9ff;
+    border-bottom:2px solid #121212;
 }
 @keyframes glow {
     from {
-        text-shadow: 0 0 1px #fff, 0 0 5px #fff, 0 0 10px #04D9FF, 0 0 15px #04D9FF, 0 0 20px #04D9FF, 0 0 25px #04D9FF, 0 0 30px #04D9FF;
+        text-shadow: 0 0 1px #fff, 0 0 5px #fff, 0 0 10px #00b8ff, 0 0 15px #00b8ff, 0 0 20px #00b8ff, 0 0 25px #00b8ff, 0 0 30px #00b8ff;
     }
     to {
-        text-shadow: 0 0 1px #fff, 0 0 5px #1F51FF, 0 0 10px #1F51FF, 0 0 15px #1F51FF, 0 0 20px #1F51FF, 0 0 25px #1F51FF, 0 0 30px #1F51FF;
+        text-shadow: 0 0 1px #fff, 0 0 5px #00415a, 0 0 10px #00415a, 0 0 15px #00415a, 0 0 20px #00415a, 0 0 25px #00415a, 0 0 30px #00415a;
     }
 }
 
 #brief-intro{
-    color:FBFFFF;
+    color:#FBFFFF;
     font-size:20px;
     margin-left:10px;
     margin-right:10px;
     transition:0.5s;
     padding:10px 10px 10px 10px;
-    border:2px solid #121212;
+    border:2px solid transparent;
     width: 752px
 
 }
 
 #brief-intro:hover{
     font-size:25px;
-    border:2px solid #04D9FF
+    border:2px solid #121212;
     
 }
 
@@ -57,4 +58,26 @@ body {
     position:fixed;
     top: 245px;
     right:0px;
+}
+
+.navbar {
+    width:50%;
+    float:right;
+    display:flex;
+    justify-content: space-evenly;
+    margin-left:100px;
+}
+
+.navbar a{
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 500;
+    color:#FBFFFF;
+    border:2px solid transparent;
+    transition:0.5s;
+}
+
+.navbar a:hover{
+    border-bottom:2px solid #121212;
+
 }
